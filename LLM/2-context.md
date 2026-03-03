@@ -409,7 +409,7 @@ Your request: 250000 tokens
 
 ### Стратегия 5: Используй команду /context
 
-**В Claude Code и Cursor:**
+**В Claude Code:**
 
 ```bash
 /context
