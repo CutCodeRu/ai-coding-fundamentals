@@ -867,14 +867,11 @@ AI выполняет план шаг за шагом с отчётами ✅
 #### **В Cursor:**
 
 ```
-Способ 1: Ctrl+K (command palette)
-Ввести: "Plan: [твоя задача]"
-
-Способ 2: В чате
+Способ 1: В чате
 Начать сообщение с "Plan:"
 
-Способ 3: В настройках
-Settings → Cursor → Default mode → Planning
+Способ 2: В интерфейсе чата
+Switch Agent Mode → Plan
 ```
 
 #### **В Claude Code:**
