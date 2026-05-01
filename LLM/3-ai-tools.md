@@ -92,14 +92,14 @@ AI Coding Tools (2026)
 | Работа над проектом | ❌ Неудобно |
 | Рефакторинг | ❌ Неудобно |
 
-### Стоимость (2026)
+### Стоимость (на апрель 2026)
 
-| Сервис | Free | Pro | Max/Team |
-|--------|------|-----|----------|
-| ChatGPT | ✅ Базовый | $20/мес | $200/мес |
-| Claude | ✅ Базовый | $20/мес | $30/юзер |
-| Gemini | ✅ Базовый | $20/мес | — |
-| DeepSeek | ✅ Бесплатно | — | — |
+| Сервис | Free | Pro / Plus | Pro+ / Max | Enterprise |
+|--------|------|-----------|------------|------------|
+| ChatGPT | ✅ Базовый | $20/мес (Plus) | $100 или $200/мес (Pro) | от $25/юзер (Business) |
+| Claude | ✅ Базовый | $20/мес (Pro) | от $100/мес (Max 5x), $200 (Max 20x) | $30/юзер (Team) |
+| Gemini | ✅ Базовый | $20/мес (AI Pro) | $250/мес (AI Ultra) | — |
+| DeepSeek | ✅ Бесплатно | — | — | — |
 
 ---
 
@@ -116,10 +116,10 @@ VS Code → Extensions → Поиск "Claude"
 code --install-extension anthropic.claude-vscode
 ```
 
-**Характеристики:**
-- **Модели:** Claude Sonnet 4.5, Opus 4
-- **Контекст:** 200K токенов
-- **Цена:** $20-200/мес (подписка Claude)
+**Характеристики (на апрель 2026):**
+- **Модели:** Claude Sonnet 4.6, Opus 4.7, Haiku 4.5
+- **Контекст:** 200K токенов (на Max-планах — до 1M для Sonnet/Opus)
+- **Цена:** $20–200/мес (подписка Claude Pro / Max)
 - **MCP:** ✅ Поддерживает
 
 **Плюсы:**
@@ -156,11 +156,11 @@ code --install-extension anthropic.claude-vscode
 VS Code → Extensions → "GitHub Copilot"
 ```
 
-**Характеристики:**
-- **Модели:** GPT-5, Claude 3.5, Gemini 2.5
-- **Контекст:** 8K-32K токенов
-- **Цена:** $10-39/мес
-- **MCP:** ⚠️ Ограничено
+**Характеристики (на апрель 2026):**
+- **Модели:** GPT-5.1 / GPT-5.3, Claude Sonnet 4.6, Gemini 3 Pro
+- **Контекст:** 64K–128K токенов (зависит от модели и плана)
+- **Цена:** $10/мес (Pro), $19/мес (Pro+), $39/юзер (Business)
+- **MCP:** ✅ Поддерживается с 2025
 
 **Плюсы:**
 - ✅ Лучшая интеграция с GitHub
@@ -202,10 +202,10 @@ Copilot: [автоматически исправляет код]
 VS Code → Extensions → "Continue"
 ```
 
-**Характеристики:**
-- **Модели:** GPT, Claude, Qwen, Llama, любые!
-- **Контекст:** Зависит от модели (до 200K)
-- **Цена:** $0 (с локальными моделями)
+**Характеристики (на апрель 2026):**
+- **Модели:** GPT, Claude, Qwen3-Coder, Llama, DeepSeek — любые!
+- **Контекст:** Зависит от модели (до 1M у Gemini, 200K у Claude)
+- **Цена:** $0 (с локальными моделями через Ollama)
 - **Open-source:** ✅ Да
 
 **Плюсы:**
@@ -266,10 +266,10 @@ VS Code → Extensions → "Continue"
 VS Code → Extensions → "Cline"
 ```
 
-**Характеристики:**
-- **Модели:** Claude, GPT, Gemini
-- **Контекст:** 200K токенов
-- **Цена:** Платишь за API токены
+**Характеристики (на апрель 2026):**
+- **Модели:** Claude Sonnet 4.6 / Opus 4.7, GPT-5.x, Gemini 3, GLM-5.1
+- **Контекст:** 200K токенов (до 1M на расширенных планах)
+- **Цена:** Платишь за API токены (через OpenRouter / Anthropic / OpenAI)
 - **Автономность:** ✅✅ Очень высокая
 
 **Плюсы:**
@@ -309,10 +309,10 @@ Cline делает:
 
 **Что это:** Полноценный редактор, похожий на VS Code, но заточенный под AI
 
-**Характеристики:**
-- **Модели:** GPT-5, Claude 4.5, Gemini 2.5
-- **Контекст:** 32K-200K токенов
-- **Цена:** $0 (free) / $20 (Pro) / $40 (Business)
+**Характеристики (на апрель 2026):**
+- **Модели:** GPT-5.1 / GPT-5.3, Claude Sonnet 4.6 / Opus 4.7, Gemini 3 Pro
+- **Контекст:** до 200K–1M токенов (зависит от модели)
+- **Цена:** $0 (Hobby) / $20 (Pro) / $60 (Pro+) / $200 (Ultra) / $40 user (Teams)
 - **Multi-file:** ✅✅ Лучший в классе
 
 **Killer Features:**
@@ -365,10 +365,10 @@ Cursor редактирует сразу:
 
 **Что это:** Конкурент Cursor от Codeium
 
-**Характеристики:**
-- **Модели:** Cascade (собственная модель)
-- **Контекст:** 32K токенов
-- **Цена:** $0 (free) / $15 (Pro)
+**Характеристики (на апрель 2026):**
+- **Модели:** Cascade (собственная) + Claude Sonnet 4.6 / GPT-5.x / SWE-1
+- **Контекст:** до 200K токенов
+- **Цена:** $0 (Free) / $15 (Pro) / $30 (Teams) / $60 (Enterprise)
 - **Multi-file:** ✅ Хорошо
 
 **Killer Feature: Flow Mode**
@@ -413,10 +413,10 @@ Windsurf в Flow mode:
 - VS Code расширение
 - CLI инструмент
 
-**Характеристики:**
-- **Модели:** GPT-5, GPT-5 mini
-- **Контекст:** 128K токенов
-- **Цена:** $20-200/мес (подписка ChatGPT)
+**Характеристики (на апрель 2026):**
+- **Модели:** GPT-5.3-Codex, GPT-5.1
+- **Контекст:** 200K–400K токенов (на GPT-5.3)
+- **Цена:** $20 (Plus) / $100 (Pro 5x, **новый с 9 апреля 2026**) / $200 (Pro 20x)
 - **Multi-file:** ✅ Хорошо
 
 **Особенность:** Всё в одной подписке ChatGPT
@@ -434,28 +434,28 @@ Windsurf в Flow mode:
 
 **Плюсы:**
 - ✅ Интеграция с ChatGPT подпиской
-- ✅ Можно в VS Code
-- ✅ GPT-5 — очень сильная модель
-- ✅ Desktop app удобный
+- ✅ Можно в VS Code и JetBrains
+- ✅ GPT-5.3-Codex — топ среди агентов для кода
+- ✅ Desktop app удобный, cloud tasks параллельно
 
 **Минусы:**
 - ❌ Только OpenAI модели
 - ❌ Нет выбора провайдеров
-- ❌ 128K контекст (меньше Claude)
+- ❌ С 2 апреля 2026 биллинг по токенам — лимиты «горят» быстрее
 
 ---
 
-### Сравнительная таблица IDE инструментов
+### Сравнительная таблица IDE инструментов (на апрель 2026)
 
 | Инструмент | Тип | Модели | Контекст | Цена/мес | Multi-file | Planning |
 |------------|-----|--------|----------|----------|------------|----------|
-| **Claude for VS Code** | Extension | Claude | 200K | $20-200 | ⚠️ | ✅ |
-| **Copilot** | Extension | GPT, Claude, Gemini | 8-32K | $10-39 | ⚠️ | ✅ |
-| **Continue + Qwen** | Extension | Любые | До 200K | $0 | ❌ | ❌ |
-| **Cline** | Extension | Claude, GPT | 200K | API токены | ✅ | ✅✅ |
-| **Cursor** | Standalone | GPT, Claude, Gemini | 32-200K | $0-40 | ✅✅ | ✅✅ |
-| **Windsurf** | Standalone | Cascade | 32K | $0-15 | ✅ | ✅✅ |
-| **Codex** | App + Extension | GPT-5 | 128K | $20-200 | ✅ | ✅ |
+| **Claude for VS Code** | Extension | Claude 4.6 / 4.7, Haiku 4.5 | 200K (1M на Max) | $20–200 | ✅ | ✅ |
+| **Copilot** | Extension | GPT-5.x, Claude 4.6, Gemini 3 | 64–128K | $10–39 | ✅ | ✅ |
+| **Continue + Qwen** | Extension | Любые (Qwen3-Coder, Llama, и др.) | до 1M | $0 | ❌ | ❌ |
+| **Cline** | Extension | Claude 4.6/4.7, GPT-5.x, Gemini 3, GLM-5.1 | 200K–1M | API токены | ✅ | ✅✅ |
+| **Cursor** | Standalone | GPT-5.x, Claude 4.6/4.7, Gemini 3 | 200K–1M | $0–200 | ✅✅ | ✅✅ |
+| **Windsurf** | Standalone | Cascade, Claude, GPT-5 | до 200K | $0–60 | ✅ | ✅✅ |
+| **Codex** | App + Extension | GPT-5.3-Codex | 200K–400K | $20–200 | ✅ | ✅ |
 
 ---
 
@@ -463,16 +463,17 @@ Windsurf в Flow mode:
 
 ### 1. **Claude Code**
 
-**Характеристики:**
-- **Модели:** Claude Sonnet 4.5, Opus 4
-- **Контекст:** 200K токенов
-- **Цена:** $20-200/мес
+**Характеристики (на апрель 2026):**
+- **Модели:** Claude Sonnet 4.6, Opus 4.7, Haiku 4.5
+- **Контекст:** 200K токенов (1M на Max-планах)
+- **Цена:** $20–200/мес (включено в Pro/Max подписку Claude)
 - **MCP:** ✅✅ Отличная поддержка
+- **Распространение:** CLI, IDE-расширения (VS Code, JetBrains), Desktop (Mac/Windows), web (claude.ai/code)
 
 **Установка:**
 ```bash
 npm install -g @anthropic-ai/claude-code
-claude-code auth
+claude /login
 ```
 
 **Использование:**
@@ -510,10 +511,10 @@ npm install -g openai-codex-cli
 codex auth
 ```
 
-**Характеристики:**
-- **Модели:** GPT-5, GPT-5 mini
-- **Контекст:** 128K токенов
-- **Цена:** $20-200/мес
+**Характеристики (на апрель 2026):**
+- **Модели:** GPT-5.3-Codex, GPT-5.1
+- **Контекст:** 200K–400K токенов
+- **Цена:** $20–200/мес (Plus / Pro $100 / Pro $200)
 
 **Плюсы:**
 - ✅ Интеграция с ChatGPT
@@ -528,28 +529,29 @@ codex auth
 
 ### 3. **Gemini CLI**
 
-**🔥 Особенность:** Самый большой контекст (1M токенов)!
+**🔥 Особенность:** Огромный контекст (до 1M токенов)!
 
 **Установка:**
 ```bash
 npm install -g @google/gemini-cli
-gemini auth
+gemini  # OAuth-логин при первом запуске
 ```
 
-**Характеристики:**
-- **Модели:** Gemini 2.5 Pro
-- **Контекст:** 1,000,000 токенов (1M!)
-- **Цена:** Бесплатно! (с лимитами)
+**Характеристики (на апрель 2026):**
+- **Модели:** Gemini 3 Pro, Gemini 3 Deep Think (на платных тирах)
+- **Контекст:** до 1,000,000 токенов
+- **Цена:** Бесплатно через OAuth (60 запросов/мин, 1000/день); $20/мес Google AI Pro; $250/мес Google AI Ultra
 
 **Плюсы:**
 - ✅ Огромный контекст (1M)
-- ✅ Бесплатно
+- ✅ Щедрый бесплатный тир
 - ✅ Хорошо для рефакторинга больших проектов
+- ✅ Поддержка MCP и подагентов
 
 **Минусы:**
-- ❌ Лимиты на бесплатном тире
-- ❌ Медленнее Claude/GPT
-- ❌ Меньше функций
+- ❌ Лимиты на бесплатном тире (1000/день)
+- ❌ Бывает медленнее Claude/GPT на сложных reasoning
+- ❌ Меньше готовых интеграций
 
 ---
 
@@ -602,21 +604,21 @@ OpenRouter
 {
   "models": [
     {
-      "title": "Claude Sonnet 4.5 (OpenRouter)",
+      "title": "Claude Sonnet 4.6 (OpenRouter)",
       "provider": "openrouter",
-      "model": "anthropic/claude-sonnet-4.5",
+      "model": "anthropic/claude-sonnet-4.6",
       "apiKey": "YOUR_OPENROUTER_KEY"
     },
     {
-      "title": "GPT-5 (OpenRouter)",
+      "title": "GPT-5.1 (OpenRouter)",
       "provider": "openrouter",
-      "model": "openai/gpt-5",
+      "model": "openai/gpt-5.1",
       "apiKey": "YOUR_OPENROUTER_KEY"
     },
     {
-      "title": "DeepSeek-V3 (OpenRouter)",
+      "title": "DeepSeek-V3.2 (OpenRouter)",
       "provider": "openrouter",
-      "model": "deepseek/deepseek-v3",
+      "model": "deepseek/deepseek-v3.2",
       "apiKey": "YOUR_OPENROUTER_KEY"
     }
   ]
@@ -641,17 +643,21 @@ Claude недоступен → автоматически переключае�
 Сложные задачи → дорогая модель (Claude Opus)
 ```
 
-### Цены через OpenRouter (февраль 2026)
+### Цены через OpenRouter (на апрель 2026)
 
 | Модель | Input ($/1M токенов) | Output ($/1M токенов) |
 |--------|---------------------|----------------------|
-| Claude Sonnet 4.5 | $3.00 | $15.00 |
-| GPT-5 | $2.50 | $10.00 |
-| Gemini 2.5 Pro | $1.25 | $5.00 |
-| DeepSeek-V3 | $0.27 | $1.10 |
-| Qwen 2.5 72B | $0.35 | $0.40 |
+| Claude Opus 4.7 | $5.00 | $25.00 |
+| Claude Sonnet 4.6 | $3.00 | $15.00 |
+| Claude Haiku 4.5 | $1.00 | $5.00 |
+| GPT-5.1 | $1.25 | $10.00 |
+| GPT-5.3 | $2.50 | $20.00 |
+| Gemini 3 Pro | $2.00 | $12.00 |
+| GLM-5.1 | $0.60 | $2.20 |
+| DeepSeek-V3.2 | $0.27 | $1.10 |
+| Qwen3-Coder 480B | $0.45 | $1.80 |
 
-**💡 Совет:** Начни с DeepSeek-V3 — дешёво и качественно!
+**💡 Совет:** Для бюджета — DeepSeek-V3.2 / GLM-5.1; для качества — Claude Sonnet 4.6.
 
 ---
 
